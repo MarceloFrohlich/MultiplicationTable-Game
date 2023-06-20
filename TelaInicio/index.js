@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { View, Text, Button, TextInput, ImageBackground } from "react-native";
 
 import { validarResposta, gerarNumero } from "./funcoes";
-import {Certa, Errada} from './funcoes';
-import { handleClick } from "./funcoes";
 
 import estilo from './estilo';
 import fundo from '../../assets/fundo.png';
